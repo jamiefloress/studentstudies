@@ -1,22 +1,22 @@
-# studentstudies
+# Student Studies
 
-# Team Members 
+## Team Members 
 * Riley Hedgpath
 * Daniel Jaegers 
 * Jamie Flores 
  
-# Project Description
-For our project 
+## Project Description
+For our project we created a program that allows students to find study partners. 
 
-# Database Schema 
+## Database Schema 
 
-# Entity Relationship Diagram
+## Entity Relationship Diagram
 
-# Create, Read, Update, Delete
+## Create, Read, Update, Delete
 * Create: 
 * Read: 
 * Update: 
 * Delete: 
 
-# Video
+## Video
 
