@@ -30,7 +30,7 @@ For our project we created a program that allows students to find study partners
 | subject | enum('Information Technology', 'Mathematics', 'Computer Science') | No | None | None| No |
 
 ## Entity Relationship Diagram
-Add ERD
+![alt text](https://github.com/jamiefloress/studentstudies/blob/master/studentStudies.png "ERD")
 
 ## Create, Read, Update, Delete
 * Create: When users enter in a new request, they are creating a request that goes into our database. 
