@@ -9,6 +9,19 @@
 For our project we created a program that allows students to find study partners. 
 
 ## Database Schema 
+| Field | Type | Null | Default | Key | Auto Increment |
+|----|:------:|:------:|:------:|:------:|-------------:|
+| id | int(11) | No | None | Primary | Yes |
+|name | varchar(40) | No | None | None | No |
+| pawprint | varchar(40) | No | None | None | No |
+| studentNumber | int(11) | No | None | None | No |
+| description | mediumtext | Yes | NULL | None | No |
+| dateCreated | datetime | No | NOW() | None | No |
+| course_id | int(11) | No | None | None | No |
+
+
+
+
 
 ## Entity Relationship Diagram
 
@@ -19,4 +32,5 @@ For our project we created a program that allows students to find study partners
 * Delete: 
 
 ## Video
+
 
