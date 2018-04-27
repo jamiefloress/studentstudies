@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <body>
+    <h1>Request</h1>
+      <form action="add_task.php" method="post">
+        <p>Courses<br />
+          <?php
+            require ('db_credentials.php');
+
+            // Create connection
+            $mysqli = new mysqli($servername, $username, $password, $dbname);
+
+            $sql = "SELECT id, title FROM courses";
+            $result = $mysqli->query($sql);
+            $requests = array();
+            if ($result->num_rows > 0) {
+              while($row = $result->fetch_assoc()) {
+                array_push($requests, $row);
+              }
+            }
+
+            echo "<select name = 'course'>";
+            foreach($requests as $request) {
+              $title = $request['title'];
+              $id = $request['id'];
+              echo "<option value='" . $id . "'>" . $title . "</option>";
+            }
+
+            echo "</select>";
+          ?>
+        </p>
+
+      <p>Name<br />
+      <input type="text" name="name" value="" placeholder="name" maxlength="255" size="80"></p>
+
+      <p>Student ID<br />
+      <input type="text" name="student_id" value="" placeholder="student id" maxlength="255" size="80"></p>
+
+      <p>PawPrint<br />
+      <input type="text" name="pawprint" value="" placeholder="pawprint" maxlength="255" size="80"></p>
+
+      <p>Description<br />
+      <textarea name="description" rows="6" cols="80" placeholder="description"></textarea></p>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
