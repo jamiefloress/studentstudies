@@ -45,4 +45,6 @@ For our project we created a program that allows students to find study partners
 
 ## Video
 
-
+<a href="https://youtu.be/5Ll5q8m630M
+" target="_blank"><img src="https://youtu.be/5Ll5q8m630M.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
