@@ -7,6 +7,7 @@
  
 ## Project Description
 For our project we created a program that allows students to find study partners.
+Website: http://danieljaegers.epizy.com/studentstudies
 
 ## Database Schema 
 
