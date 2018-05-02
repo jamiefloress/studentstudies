@@ -6,7 +6,7 @@
 * Jamie Flores 
  
 ## Project Description
-For our project we created a program that allows students to find study partners. 
+For our project we created a program that allows students to find study partners.
 
 ## Database Schema 
 
@@ -33,10 +33,13 @@ For our project we created a program that allows students to find study partners
 ![alt text](https://github.com/jamiefloress/studentstudies/blob/master/studentStudiesERD.png "ERD")
 
 ## Create, Read, Update, Delete
-* Create: When users enter in a new request, they are creating a request that goes into our database. 
-* Read: When the display of the information that has been inserted into our tables is shown.
-* Update: Users can enter in their student numbers to update the forms they filled our for their request. 
-* Delete: Once users have found a match, they can verify their student number and remove their request. 
+* Create: When users enter in a new request, they are creating a request that goes into our database. This button to open the request form is available on the home page. 
+
+* Read: On the homepage, all the requests that have been inserted into our database are displayed. 
+
+* Update: Thier is a button on the homepage next to each users request that allows them to update their request form. 
+
+* Delete: Once users have found a match, they remove their request or mark it as complete. 
 
 ## Video
 
