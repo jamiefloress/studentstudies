@@ -6,7 +6,7 @@
 * Jamie Flores 
  
 ## Project Description
-For our project we created a program that allows students to find study partners.
+For our project we created a program that allows students to find study partners!
 <br/>
 **Website:** http://danieljaegers.epizy.com/studentstudies
 
