@@ -44,9 +44,12 @@ For our project we created a program that allows students to find study partners
 * Delete: Once users have found a match, they remove their request or mark it as complete. 
 
 ## Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5Ll5q8m630M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
-<a href="https://youtu.be/5Ll5q8m630M
-" target="_blank"><img src="https://youtu.be/5Ll5q8m630M.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=5Ll5q8m630M
+" target="_blank"><img src="http://img.youtube.com/vi/5Ll5q8m630M/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+
+
+
