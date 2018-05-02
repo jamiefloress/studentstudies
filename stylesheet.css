@@ -1,0 +1,135 @@
+body {
+	margin: 20px;
+	background-color: white;
+	font-family: arial;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 4px;
+}
+
+th {
+	background-color: white;
+}
+
+td {
+	background-color: #fff;
+}
+
+a.requestButton:link, a.requestButton:visited, a.requestButton:active {
+	color: black;
+	font-size: 1.2em;
+	text-decoration: none;
+	background-color: white;
+	padding: 15px;
+	border: 2px solid lightgray;
+	display: flex; justify-content: center;
+}
+
+a.requestButton:hover {
+	background-color: lightgray;
+}
+
+.requestform {
+	background-color: white;
+	border: 5px solid lightgray;
+	padding: 25px;
+}
+
+p.message {
+	color: red;
+	padding: 4px;
+	border: 1px solid red;
+}
+
+a.order:link, a.order:visited, a.order:active {
+	color: black;
+	text-decoration: none;
+}
+
+a.order:hover {
+	color: #aa4444;
+}
+
+h1 {
+	text-align: center;
+	font-size: 90px;
+	color: #D35E51;
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	color: #D35E51;
+	font-family: 'Poiret One', cursive;
+}
+
+input {
+	padding: 5px;
+}
+
+textarea {
+	padding: 5px;
+}
+
+.titles {
+	color: #D35E51;
+}
+
+.button {
+	background-color: lightgray;
+	padding: 15px;
+}
+
+.space {
+	padding: 5px;
+	display: inline-block;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.row.content {height:auto;}
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:10px;
+	width: 200px;
+}
+
+.logo {
+	padding: 30px
+}
