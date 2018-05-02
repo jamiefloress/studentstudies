@@ -18,7 +18,7 @@ For our project we created a program that allows students to find study partners
 | pawprint | varchar(40) | No | None | None | No |
 | description | mediumtext | Yes | NULL | None | No |
 | dateCreated | datetime | No | NOW() | None | No |
-| dateCompleted | datetime | No | NOW() | None | No |
+| dateCompleted | datetime | Yes | NULL | None | No |
 | course_id | int(11) | No | None | None | No |
 
 ### courses
